@@ -1,6 +1,6 @@
 import { v2 as cloudinary } from "cloudinary";
 
-import dotenv from "dotenv";
+import dotenv from "dot";
 dotenv.config();
 
 cloudinary.config({
