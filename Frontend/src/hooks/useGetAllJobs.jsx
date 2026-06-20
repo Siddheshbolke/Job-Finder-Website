@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from "react-redux";
 const useGetAllJobs = () => {
   const dispatch = useDispatch();
   const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState();
   const { searchedQuery } = useSelector((store) => store.job);
 
   useEffect(() => {
