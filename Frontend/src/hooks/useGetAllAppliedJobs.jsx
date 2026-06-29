@@ -9,7 +9,7 @@ const useGetAppliedJobs = () => {
   useEffect(() => {
     const fetchAppliedJobs = async () => {
       try {
-        const res = await axios.get(`${APPLICATION_API_ENDPOINT}/get`, {
+        const res = await axios.get(`${APPLICATION_API_ENDPOINT}/`, {
           withCredentials: true,
         });
         console.log("API Response:", res.data);
