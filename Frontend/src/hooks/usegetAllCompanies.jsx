@@ -14,7 +14,7 @@ const useGetAllCompanies = () => {
         });
         console.log("called");
         if (res.data.success) {
-          dispatch(setCompanies(res.data.companies));
+          dispatch(setCompanies(res.data);
         }
       } catch (error) {
         console.log(error);
